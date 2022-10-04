@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+			<meta charset="UTF-8">
+			<link rel="stylesheet" href="tyylit.css">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<!-- leipäteksti fontti  -->
+			<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet"> 
+			<!-- otsikkofontti -->
+			<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet"> 
+			<title>Oppari</title>
+			<script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
+
+	</head>
+	
+	<body>
+	
+		
+	<div id="wrapper"">
+	
+		<lottie-player 
+		id="firstLottie" 
+		src="https://lottie.host/712ccb34-8a4a-43ad-b05f-151b61cd323d/k3034hBX4v.json" 
+		style="width:400px; height: 400px;"
+		autoplay 
+		loop></lottie-player>
+
+
+
+			
+	</div>
+	</body>
+	
+</html>
