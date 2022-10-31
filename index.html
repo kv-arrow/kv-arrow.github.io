@@ -17,16 +17,30 @@
 	</head>
 	
 	<body>
-	</script>-->
 		
 	<div id="wrapper"">
+			  
 	
 		<lottie-player 
 		id="firstLottie" 
-		src="https://kv-arrow.github.io/polystar testi.json" 
+		src="https://assets1.lottiefiles.com/packages/lf20_9qN1iLEfN5.json" 
 		style="width:400px; height: 400px;"
 		autoplay 
 		loop></lottie-player>
+						   
+<script>
+LottieInteractivity.create({
+    player: '#firstLottie',
+    mode: 'cursor',
+    actions: [
+        {
+            position: { x: [0, 1], y: [-1, 2] },
+            type: 'seek',
+            frames: [0, 180],
+        }
+    ]
+});
+</script>
 
 
 
