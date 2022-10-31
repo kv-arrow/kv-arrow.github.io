@@ -1,4 +1,4 @@
-<script>
+
 LottieInteractivity.create({
     player: '#firstLottie',
     mode: 'cursor',
@@ -10,4 +10,4 @@ LottieInteractivity.create({
         }
     ]
 });
-</script>
+
