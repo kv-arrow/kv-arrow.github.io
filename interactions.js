@@ -4,7 +4,7 @@
 
 
   LottieInteractivity.create({
-    player: '#eighthLottie',
+    player: '#esimerkki1',
     mode: 'cursor',
     actions: [
       {
