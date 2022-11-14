@@ -1,4 +1,4 @@
-// Animation configuration
+// Lottie animaatiot
 
 
   LottieInteractivity.create({
