@@ -6,9 +6,9 @@
     mode: 'scroll',
     actions: [
       {
-         visibility:[0.2, 1.0] ,
+         visibility:[0.2, 0.9] ,
           type: 'seek',
-        frames: [0, 48]
+        frames: [0, 49]
       }
     ]
   });
@@ -19,7 +19,7 @@
     actions: [
    
 	   {
-            visibility:[0.25, 1.0],
+            visibility:[0.5, 1.0],
             type: "play",
         }
     ]
@@ -32,7 +32,7 @@
       {
          position: { x: [0, 1], y: [-1, 2] },
           type: 'seek',
-        frames: [0, 48]
+        frames: [0, 49]
       }
     ]
   });
@@ -52,51 +52,56 @@ LottieInteractivity.create({
     player: '#esimerkki5',
     mode: 'chain',
     actions: [
-      {
+     {
+          state: 'autoplay',
+          transition: 'onComplete',
+          frames: [0,17]
+      },
+	 {
           state: 'none',
           transition: 'click',
-          frames: [0]
+          frames: [17]
       },
 	  {
           state: 'autoplay',
 		  ForceFlag: false,
-          frames: [0,17],
+          frames: [17,31],
 		  transition: 'onComplete'
       },
 	  {
          state: 'none',
-          frames: [35],
+          frames: [31],
 		  transition: 'click'
 		 
       },
 	  {
           state: 'autoplay',
 		  ForceFlag: false,
-          frames: [35,53],
+          frames: [31,46],
 		  transition: 'onComplete',
       },
 	    {
          state: 'none',
-          frames: [73],
+          frames: [46],
 		  transition: 'click'
 		 
       },
 	   {
           state: 'autoplay',
 		  ForceFlag: false,
-          frames: [73,94],
+          frames: [46,67],
 		  transition: 'onComplete',
       },
 	  {
          state: 'none',
-          frames: [112],
+          frames: [67],
 		  transition: 'click'
 		 
       },
 	  {
           state: 'autoplay',
 		  ForceFlag: false,
-          frames: [112,162],
+          frames: [67,97],
 		  transition: 'onComplete',
 		  reset: true
       }
