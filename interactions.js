@@ -19,7 +19,7 @@
     actions: [
    
 	   {
-            visibility:[0.5, 1.0],
+            visibility:[0.3, 1.0],
             type: "play",
         }
     ]
