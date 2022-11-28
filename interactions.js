@@ -109,7 +109,7 @@ LottieInteractivity.create({
   });
   
 LottieInteractivity.create({
-    player: '#esimerkki5',
+    player: '#juoma',
     mode: 'chain',
     actions: [
      {
@@ -121,6 +121,6 @@ LottieInteractivity.create({
           state: 'loop',
           transition: 'none',
           frames: [0,102]
-      },
+      }
 	     ]
   });
