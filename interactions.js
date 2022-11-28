@@ -108,3 +108,19 @@ LottieInteractivity.create({
     ]
   });
   
+LottieInteractivity.create({
+    player: '#esimerkki5',
+    mode: 'chain',
+    actions: [
+     {
+          state: 'none',
+          transition: 'click',
+          frames: [0]
+      },
+	 {
+          state: 'loop',
+          transition: 'none',
+          frames: [0,102]
+      },
+	     ]
+  });
